@@ -40,4 +40,7 @@ jobs:
         key: ${{ secrets.EC2_KEY }}
         script: |
           pkill -f 'java -jar' || true
-          nohup java -jar /home/ec2-user/app/*.jar > output.log 2>&1 &
+          nohup java -jar /home/ec2-user/app/*.jar > /home/ec2-user/app/output.log 2>&1 &
+          sleep 5
+          echo "App started."
+
