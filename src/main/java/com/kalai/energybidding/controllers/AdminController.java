@@ -28,7 +28,7 @@ public class AdminController {
         Users user = new Users();
         user.setId(101);
         user.setEmail("kalai@gmail.com");
-        user.setName("Kalaitest");
+        user.setName("Tamil Mani");
         Users user1 = new Users();
         user1.setId(102);
         user1.setEmail("mani@gmail.com");
