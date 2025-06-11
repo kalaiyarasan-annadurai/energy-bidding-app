@@ -36,6 +36,13 @@ public class AdminController {
         respone.add(0, user);
         respone.add(1, user1);
 
+        Users user2 = new Users();
+        user2.setId(102);
+        user2.setEmail("dd@gmail.com");
+        user2.setName("DD");
+        
+        respone.add(2, user2);
+
 
         return ResponseEntity.ok(respone);
       }
