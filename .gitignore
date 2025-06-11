@@ -1,0 +1,52 @@
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.apt_generated/
+.factorypath
+.sts4-cache/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment & Security
+.env
+*.pem
+*.key
+*.crt
+
+# Spring Boot dev files
+spring-boot-devtools.properties
+
+# Test Reports
+surefire-reports/
+jacoco.exec
+
+# GitHub Actions/CI artifacts (optional)
+*.jar
+*.war
