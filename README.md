@@ -1,2 +1,1 @@
-This project is built using Spring Boot
-An energy bidding application back end
+## Demo project for AWS | EC2 | RDS | S3 | Git hub actions | CICD
